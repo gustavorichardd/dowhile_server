@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "typeRoots": [
+      "./src/@types",
+      "node_modules/@types"
+    ] // Informa ao typescript que além dos @types de dentro da node_modules, também é para ele enxergar os types personalizados. 
+  }
+}
